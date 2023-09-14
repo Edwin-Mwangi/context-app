@@ -5,7 +5,7 @@ class Booklist extends Component {
     render() { 
         return(
             //2nd way of consuming data(used in both func&class components)
-            //Consumer has func that takes ocntext as arg
+            //Consumer has func that takes context as arg
             //there are Provider and Consumer tags(ha ha)
             <ThemeContext.Consumer>{ (context) => {
                 const { isLightTheme, dark, light } = context;
